@@ -4,7 +4,7 @@
 class Pyromancer: public Protagonist{
 public:
     Pyromancer();
-
+    ~Pyromancer() override;
 };
 
 

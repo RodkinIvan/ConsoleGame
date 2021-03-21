@@ -3,3 +3,5 @@
 Pyromancer::Pyromancer(){
     VIT = 20;
 }
+
+Pyromancer::~Pyromancer() = default;

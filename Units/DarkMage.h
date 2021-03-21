@@ -4,5 +4,5 @@
 class DarkMage: public Protagonist{
 public:
     DarkMage();
-
+    ~DarkMage() override;
 };

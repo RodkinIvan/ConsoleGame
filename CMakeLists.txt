@@ -3,7 +3,8 @@ project(ConsoleGame)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ConsoleGame  main.cpp
+add_executable(ConsoleGame
+        main.cpp
         Units/Unit.h
         Units/Unit.cpp
         Units/Enemy.h
