@@ -1,6 +1,5 @@
 #include <iostream>
-#include "Units/Pyromancer.h"
-#include "Factories/ImpFactory.h"
+#include "MainHeader.h"
 #include <cassert>
 int main() {
     auto* p = new Pyromancer;
@@ -9,6 +8,7 @@ int main() {
     Imp* imp = dynamic_cast<Imp*>(e);
     assert(imp->LVL==e->LVL);
     std::cout << "Inheritance test passed";
+    delete f;
     delete imp;
     delete p;
 }

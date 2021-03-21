@@ -20,4 +20,5 @@ add_executable(ConsoleGame
         Factories/EnemyFactory.h
         Factories/EnemyFactory.cpp
         Factories/ImpFactory.h
-        Factories/ImpFactory.cpp)
+        Factories/ImpFactory.cpp
+        MainHeader.h)
