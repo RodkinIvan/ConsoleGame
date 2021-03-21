@@ -1,7 +1,7 @@
 #pragma once
 
 #include "EnemyFactory.h"
-#include "../Units/Imp.h"
+#include "../Units/Enemies/Imp.h"
 class ImpFactory: public EnemyFactory{
 public:
     Enemy* createEnemy(int lvl) override;

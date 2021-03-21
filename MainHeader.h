@@ -1,6 +1,5 @@
 #pragma once
 
-#include "Units/Pyromancer.h"
-#include "Factories/ImpFactory.h"
-#include "Units/DarkMage.h"
-#include "Units/Imp.h"
+#include "Units/UnitsHeader.h"
+#include "Factories/FactoriesHeader.h"
+

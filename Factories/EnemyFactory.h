@@ -1,5 +1,5 @@
 #pragma once
-#include "../Units/Enemy.h"
+#include "../Units/Enemies/Enemy.h"
 class EnemyFactory{
     virtual Enemy* createEnemy(int lvl) = 0;
 
