@@ -49,4 +49,4 @@ add_executable(GameTest
         MainHeader.h Units/UnitsHeader.h
         Factories/FactoriesHeader.h
         Units/Enemies/EnemiesHeader.h
-        Units/Heroes/HeroesHeader.h)
+        Units/Heroes/HeroesHeader.h Tests/tests.h)
