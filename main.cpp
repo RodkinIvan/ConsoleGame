@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Pyromancer.h"
-#include "ImpFactory.h"
+#include "Units/Pyromancer.h"
+#include "Factories/ImpFactory.h"
 #include <cassert>
 int main() {
     Pyromancer p;
